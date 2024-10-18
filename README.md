@@ -1,6 +1,6 @@
 ## Water Quality Management 
 
-This project implements a **Water Quality Management System** using Hyperledger Fabric to ensure secure and decentralized and private data sharing. The project structure includes the following key components:
+In this project we implement a **Water Quality Management System** using Hyperledger Fabric to ensure secure , decentralized and private data sharing. The project structure includes the following key components:
 
 ### Project Structure
 
