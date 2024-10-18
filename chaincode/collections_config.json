@@ -13,35 +13,35 @@
         "policy": "OR('Water_quality_data,UpdatingAndRetrievals,StorageMSP.member')",
         "requiredPeerCount": 0,
         "maxPeerCount": 3,
-        "blockToLive":3,
+        "blockToLive": 3,
         "memberOnlyRead": true,
         "memberOnlyWrite": false,
         "endorsementPolicy": {
-          "signaturePolicy": "OR('Water_quality_data,UpdatingAndRetrievals,StorageMSP.member')"
+            "signaturePolicy": "OR('Water_quality_data,UpdatingAndRetrievals,StorageMSP.member')"
         }
-      },
+    },
     {
         "name": "governmentmspPrivateCollection",
         "policy": "OR('GovernmentMSP.member')",
         "requiredPeerCount": 0,
         "maxPeerCount": 3,
-        "blockToLive":3,
+        "blockToLive": 3,
         "memberOnlyRead": true,
         "memberOnlyWrite": false,
         "endorsementPolicy": {
-          "signaturePolicy": "OR('GovernmentMSP.member')"
+            "signaturePolicy": "OR('GovernmentMSP.member')"
         }
-      },
+    },
     {
         "name": "incentives_contrantsmspPrivateCollection",
         "policy": "OR('Incentives_contrantsMSP.member')",
         "requiredPeerCount": 0,
         "maxPeerCount": 3,
-        "blockToLive":3,
+        "blockToLive": 3,
         "memberOnlyRead": true,
         "memberOnlyWrite": false,
         "endorsementPolicy": {
-          "signaturePolicy": "OR('Incentives_contrantsMSP.member')"
+            "signaturePolicy": "OR('Incentives_contrantsMSP.member')"
         }
-      }
+    }
 ]
