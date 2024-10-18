@@ -14,7 +14,7 @@ In this project we implement a **Water Quality Management System** using Hyperle
 
 ### Prerequisites
 
-Before setting up the Hyperledger Fabric network for the Water Quality Management System, ensure you have the following prerequisites installed:
+Before setting up the Hyperledger Fabric network for the Water Quality Management System, we ensure that the following prerequisites installed:
 
 1. **Docker & Docker Compose**  
    Install Docker and Docker Compose to run Hyperledger Fabric components in containers.
@@ -56,7 +56,7 @@ Before setting up the Hyperledger Fabric network for the Water Quality Managemen
 ---
 ## Water-quality-management-network-setup
 
- The network is built using the `fabric-samples` repository, with the following key files contributing to the setup and operation of the Fabric network.
+  We built the network using the `fabric-samples` repository, with the following key files contributing to the setup and operation of the Fabric network.
 
 ### Network Key Files
 
