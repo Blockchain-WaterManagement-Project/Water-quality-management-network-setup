@@ -58,7 +58,7 @@ Before setting up the Hyperledger Fabric network for the Water Quality Managemen
 
  The network is built using the `fabric-samples` repository, with the following key files contributing to the setup and operation of the Fabric network.
 
-### Key Files
+### Network Key Files
 
 - **`configtx.yaml`**: Defines channel configurations and policies for the network.
 - **`crypto-config.yaml`**: Generates cryptographic materials (certificates and keys) for organizations, peers, and orderers.
@@ -73,7 +73,7 @@ Before setting up the Hyperledger Fabric network for the Water Quality Managemen
 - **Anchor peer update files**: Configurations for updating anchor peers in the network.
 - **`.env` (optional)**: Contains environment variables for custom network configuration.
 
-## How to Start the Network
+## Starting The Network
 
 1. **Navigate to the network directory**:
    ```bash
