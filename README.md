@@ -49,8 +49,8 @@ Before setting up the Hyperledger Fabric network for the Water Quality Managemen
 
 ## System Requirements
 
-- **Operating System**: Linux, macOS, or Windows 11 (with WSL2)
-- **Memory**: At least 8GB of RAM (16-32GB recommended)
+- **Operating System**: Linux, macOS, or Windows 11 (**with WSL2**)
+- **Memory**: At least 8GB of RAM (**16-32GB recommended**)
 - **Disk Space**: At least 50GB of free space
 
 ---
