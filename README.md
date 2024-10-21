@@ -8,7 +8,7 @@ In this project we implement a **Water Quality Management System** using Hyperle
 ├── chaincode         # Smart contract logic for water quality management
 ├── client-ui         # User interface for interacting with the system
 ├── helia-server      # Backend server for network communication
-├── network           # Hyperledger Fabric network setup and configuration
+├── network           # Hyperledger Fabric network setup and configuration (configure Nodes)
 ├── server-api        # API for handling client-server communication (contains Fabric SDK)
 ```
 
