@@ -93,7 +93,7 @@ configtxgen -profile <ProfileName> -channelID system-channel -outputBlock ./chan
 # Generate the Channel Creation Transaction
 configtxgen -profile <ProfileName> -outputCreateChannelTx ./channel-artifacts/mychannel.tx -channelID mychannel
 ```
-### In the course of implementation we can also use Docker Compose to bring up the Hyperledger Fabric network, including peers, orderers, and the Certificate Authority (CA).
+### In the course of implementation we alternatively also use Docker Compose to bring up the Hyperledger Fabric network, including peers, orderers, and the Certificate Authority (CA).
  ### Navigate to the network directory
 
 ```bash
