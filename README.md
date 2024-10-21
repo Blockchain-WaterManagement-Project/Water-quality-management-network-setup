@@ -9,7 +9,7 @@ In this project we implement a **Water Quality Management System** using Hyperle
 ├── client-ui         # User interface for interacting with the system
 ├── helia-server      # Backend server for network communication
 ├── network           # Hyperledger Fabric network setup and configuration
-├── server-api        # API for handling client-server communication
+├── server-api        # API for handling client-server communication (contains Fabric SDK)
 ```
 
 ### Prerequisites
@@ -58,7 +58,7 @@ Before setting up the Hyperledger Fabric network for the Water Quality Managemen
 
   We built the network using the `fabric-samples` repository, with the following key files contributing to the setup and operation of the Fabric network.
 
-### Network Key Files
+### Network Key Files for WQM
 
 - **`configtx.yaml`**: Defines channel configurations and policies for the network.
 - **`crypto-config.yaml`**: Generates cryptographic materials (certificates and keys) for organizations, peers, and orderers.
@@ -93,7 +93,7 @@ configtxgen -profile <ProfileName> -channelID system-channel -outputBlock ./chan
 # Generate the Channel Creation Transaction
 configtxgen -profile <ProfileName> -outputCreateChannelTx ./channel-artifacts/mychannel.tx -channelID mychannel
 ```
-### You can also use Docker Compose to bring up the Hyperledger Fabric network, including peers, orderers, and the Certificate Authority (CA).
+### In the course of implementation we can also use Docker Compose to bring up the Hyperledger Fabric network, including peers, orderers, and the Certificate Authority (CA).
  ### Navigate to the network directory
 
 ```bash
@@ -105,7 +105,7 @@ cd network
 ```bash
 docker-compose -f docker-compose.yaml up -d
 ```
-Once the network is up, create a channel and have peers join the channel
+Once the network is up, we create a channel and have peers join the channel
 ### From the CLI container, create the channel
 
 ```bash
@@ -139,7 +139,7 @@ Query the chaincode to retrieve water quality data.
 ```bash
 peer chaincode query -C mychannel -n water-quality -c '{"Args":["queryWaterQuality","river1"]}'
 ```
-## Running the Application
+## We also run the application
 ### Start the Backend (helia-server):
 ```bash
 cd helia-server
