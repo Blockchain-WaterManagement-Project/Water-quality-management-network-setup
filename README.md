@@ -32,11 +32,30 @@ Before setting up the Hyperledger Fabric network for the Water Quality Managemen
 4. **Hyperledger Fabric Binaries and Docker Images**  
    Download the Hyperledger Fabric binaries and Docker images using the `fabric-samples` repository.
    ```bash
+
+   We clone the Hyperledger Fabric Repository:
+   git clone https://github.com/hyperledger/fabric-samples.git
+   cd fabric-samples
+
+   After that , we Download the Hyperledger Fabric binaries and Docker images
    curl -sSL https://bit.ly/2ysbOFE | bash -s
    Python (optional) 
    Required if you plan to interact with the network using Python SDK.
    - [Python Download](https://www.python.org/downloads/)
+
+   Afer that ,we  Set Up the Environment :
+   export PATH=${PWD}/bin:$PATH
+   export FABRIC_CFG_PATH=${PWD}/configtx
+
+   Then we do the **pre-testing of the network if everything is working fine**
+   Navigate to the Sample Directory
+   cd basic-network
+   Start the Network
+   ./start.sh
+   Check the Network Status
+   docker ps
     ```
+
  5. **Git**  
    Required for version control and cloning the project repository.
    - [Git Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
