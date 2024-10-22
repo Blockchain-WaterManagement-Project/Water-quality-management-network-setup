@@ -1,6 +1,6 @@
 ## Water Quality Management 
 
-In this project we implement a **Water Quality Management System** using Hyperledger Fabric to ensure secure , decentralized and private data sharing. The project structure includes the following key components:
+In this project we implement a **Water Quality Management System** using Hyperledger Fabric to ensure a secure , decentralized and private data sharing. The project structure includes the following key components:
 
 ### Project Structure
 
@@ -14,7 +14,7 @@ In this project we implement a **Water Quality Management System** using Hyperle
 
 ### Prerequisites
 
-Before setting up the Hyperledger Fabric network for the Water Quality Management System, we ensure that the following prerequisites installed:
+Before setting up the Hyperledger Fabric network for the Water Quality Management System, we ensure that the following prerequisites are installed:
 
 1. **Docker & Docker Compose**  
    Install Docker and Docker Compose to run Hyperledger Fabric components in containers.
@@ -37,22 +37,22 @@ Before setting up the Hyperledger Fabric network for the Water Quality Managemen
    git clone https://github.com/hyperledger/fabric-samples.git
    cd fabric-samples
 
-   After that , we Download the Hyperledger Fabric binaries and Docker images
+   After that , we download the Hyperledger Fabric binaries and Docker images
    curl -sSL https://bit.ly/2ysbOFE | bash -s
    Python (optional) 
    Required if you plan to interact with the network using Python SDK.
    - [Python Download](https://www.python.org/downloads/)
 
-   Afer that ,we  Set Up the Environment :
+   Again, we  Set Up the Environment :
    export PATH=${PWD}/bin:$PATH
    export FABRIC_CFG_PATH=${PWD}/configtx
 
    Then we do the **pre-testing of the network if everything is working fine**
-   Navigate to the Sample Directory
+   1. Navigate to the Sample Directory
    cd basic-network
-   Start the Network
+   2. Start the Network
    ./start.sh
-   Check the Network Status
+   3. Check the Network Status
    docker ps
     ```
 
@@ -65,7 +65,6 @@ Before setting up the Hyperledger Fabric network for the Water Quality Managemen
    - [jq Installation Guide](https://stedolan.github.io/jq/download/)
 
 ---
-
 ## System Requirements
 
 - **Operating System**: Linux, macOS, or Windows 11 (**with WSL2**)
@@ -158,7 +157,7 @@ Query the chaincode to retrieve water quality data.
 ```bash
 peer chaincode query -C mychannel -n water-quality -c '{"Args":["queryWaterQuality","river1"]}'
 ```
-## We also run the application
+## After all , we also run the application for user's real time operation
 ### Start the Backend (helia-server):
 ```bash
 cd helia-server
