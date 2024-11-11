@@ -176,6 +176,4 @@ cd server-api
 npm install
 npm start
 ```
-### Network Setup/ Configuration
 
-"D:\ecef298bf65b705df387eb0fe79942ca.mp4"
