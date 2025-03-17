@@ -176,6 +176,36 @@ cd server-api
 npm install
 npm start
 ```
+## Hyperledger Fabric Network Up
+
+![image](https://github.com/user-attachments/assets/b7f3b087-7106-4b68-923f-da2162cd76f7)
+
+### Hyperledger Fabric Access Control 
+1. Nodes
+![image](https://github.com/user-attachments/assets/f0057acf-922b-4b8d-83ff-64db0a010758)
+
+2. Channels
+![image](https://github.com/user-attachments/assets/e8755f20-d7ca-4cf1-a567-4ee5fb16c680)
+
+3.Smart Contracts
+![image](https://github.com/user-attachments/assets/3ae49b69-c255-4d00-bcea-dbc4170af16f)
+
+4. Wallet
+![image](https://github.com/user-attachments/assets/a2e09260-a604-4143-89f3-77a16ebfd089)
+
+5. Access
+![image](https://github.com/user-attachments/assets/267d7ba5-a68d-4337-9809-cd9457bd3425)
+
+6.Audit
+![image](https://github.com/user-attachments/assets/925fae69-d412-4fe4-af5e-6b7e019c1767)
+
+7.Settings
+![image](https://github.com/user-attachments/assets/14a7aab9-f818-4a56-8b24-0a6950e62faa)
+
+8.Organizations
+![image](https://github.com/user-attachments/assets/3941cbe8-feff-447a-8d89-96be689c6679)
+
+
 ## A Dynamic Segmentation Mapping Framework for Efficient Smart Contracts in Water Quality Management
 Experimental Results
 The results are presented for both optimized and unoptimized smart contracts, demonstrating the efficiency improvements achieved through the Dynamic Segmentation Mapping (DSM) framework. The optimized smart contract was deployed on the Sepolia Testnet and can be accessed via Blockscout: https://eth-sepolia.blockscout.com/. The entire project, including an intuitive UI, was deployed on Surge for seamless user interaction, see at https://water-quality-resource-management.surge.sh/.
