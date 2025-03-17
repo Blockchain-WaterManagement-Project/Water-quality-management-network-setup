@@ -178,7 +178,7 @@ npm start
 ```
 ## A Dynamic Segmentation Mapping Framework for Efficient Smart Contracts in Water Quality Management
 Experimental Results
-The results are presented for both optimized and unoptimized smart contracts, demonstrating the efficiency improvements achieved through the Dynamic Segmentation Mapping (DSM) framework. The optimized smart contract was deployed on the Sepolia Testnet and can be accessed via Blockscout: https://eth-sepolia.blockscout.com/. The entire project, including an intuitive UI, was deployed on Surge for seamless user interaction.
+The results are presented for both optimized and unoptimized smart contracts, demonstrating the efficiency improvements achieved through the Dynamic Segmentation Mapping (DSM) framework. The optimized smart contract was deployed on the Sepolia Testnet and can be accessed via Blockscout: https://eth-sepolia.blockscout.com/. The entire project, including an intuitive UI, was deployed on Surge for seamless user interaction, see at https://water-quality-resource-management.surge.sh/.
 
 ### How to Use the Application
 Visit the deployed project: Water Quality Resource Management.
