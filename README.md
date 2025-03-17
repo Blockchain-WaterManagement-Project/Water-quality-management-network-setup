@@ -182,24 +182,31 @@ npm start
 
 ### Hyperledger Fabric Access Control 
 1. Nodes
+   
 ![image](https://github.com/user-attachments/assets/f0057acf-922b-4b8d-83ff-64db0a010758)
 
-2. Channels
+3. Channels
+   
 ![image](https://github.com/user-attachments/assets/e8755f20-d7ca-4cf1-a567-4ee5fb16c680)
 
 3.Smart Contracts
+
 ![image](https://github.com/user-attachments/assets/3ae49b69-c255-4d00-bcea-dbc4170af16f)
 
 4. Wallet
+   
 ![image](https://github.com/user-attachments/assets/a2e09260-a604-4143-89f3-77a16ebfd089)
 
-5. Access
+6. Access
+   
 ![image](https://github.com/user-attachments/assets/267d7ba5-a68d-4337-9809-cd9457bd3425)
 
 6.Audit
+
 ![image](https://github.com/user-attachments/assets/925fae69-d412-4fe4-af5e-6b7e019c1767)
 
 7.Settings
+
 ![image](https://github.com/user-attachments/assets/14a7aab9-f818-4a56-8b24-0a6950e62faa)
 
 8.Organizations
