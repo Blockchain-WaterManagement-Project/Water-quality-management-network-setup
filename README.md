@@ -185,7 +185,7 @@ npm start
    
 ![image](https://github.com/user-attachments/assets/f0057acf-922b-4b8d-83ff-64db0a010758)
 
-3. Channels
+2. Channels
    
 ![image](https://github.com/user-attachments/assets/e8755f20-d7ca-4cf1-a567-4ee5fb16c680)
 
