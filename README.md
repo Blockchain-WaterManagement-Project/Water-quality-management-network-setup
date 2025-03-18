@@ -201,13 +201,14 @@ npm start
 ![wallet](https://github.com/user-attachments/assets/b91eba31-f1cd-4615-bd7b-89db28fc4737)
 
 
-6. Access
+6. Access Control
    
-![image](https://github.com/user-attachments/assets/267d7ba5-a68d-4337-9809-cd9457bd3425)
+![accesscontrl](https://github.com/user-attachments/assets/d6aae26c-df1b-4394-851a-23e9b521ed7b)
+
 
 6.Audit
 
-![audit](https://github.com/user-attachments/assets/37aabf49-0df4-4ada-925a-3b21e819056f)
+![audit](https://github.com/user-attachments/assets/fe6a59b4-3db7-4d41-b4f9-9b2d30a38d2f)
 
 
 7.Settings
