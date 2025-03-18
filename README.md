@@ -183,19 +183,23 @@ npm start
 ### Hyperledger Fabric Access Control 
 1. Nodes
    
-![image](https://github.com/user-attachments/assets/f0057acf-922b-4b8d-83ff-64db0a010758)
+![Net1](https://github.com/user-attachments/assets/7eab509c-4ad5-496d-97a6-17030e9d6f79)
+
 
 2. Channels
    
-![image](https://github.com/user-attachments/assets/e8755f20-d7ca-4cf1-a567-4ee5fb16c680)
+![channel](https://github.com/user-attachments/assets/8d038cce-bb57-4248-ad50-a65245202c12)
+
 
 3.Smart Contracts
 
-![image](https://github.com/user-attachments/assets/3ae49b69-c255-4d00-bcea-dbc4170af16f)
+![smartcontracts](https://github.com/user-attachments/assets/9fe1b1c6-bc43-4526-afdc-b97f45e5a256)
+
 
 4. Wallet
    
-![image](https://github.com/user-attachments/assets/a2e09260-a604-4143-89f3-77a16ebfd089)
+![wallet](https://github.com/user-attachments/assets/b91eba31-f1cd-4615-bd7b-89db28fc4737)
+
 
 6. Access
    
@@ -203,15 +207,18 @@ npm start
 
 6.Audit
 
-![image](https://github.com/user-attachments/assets/925fae69-d412-4fe4-af5e-6b7e019c1767)
+![audit](https://github.com/user-attachments/assets/37aabf49-0df4-4ada-925a-3b21e819056f)
+
 
 7.Settings
 
-![image](https://github.com/user-attachments/assets/14a7aab9-f818-4a56-8b24-0a6950e62faa)
+![settings](https://github.com/user-attachments/assets/385a439f-4173-412a-b749-187308c42151)
+
 
 8.Organizations
 
-![image](https://github.com/user-attachments/assets/3941cbe8-feff-447a-8d89-96be689c6679)
+![organization](https://github.com/user-attachments/assets/907658a3-907f-48d1-8035-e915ee6e21df)
+
 
 
 ## A Dynamic Segmentation Mapping Framework for Efficient Smart Contracts in Water Quality Management
